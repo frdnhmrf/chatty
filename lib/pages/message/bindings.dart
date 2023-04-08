@@ -1,4 +1,4 @@
-import 'package:chatty/message/index.dart';
+import 'package:chatty/pages/message/index.dart';
 import 'package:get/get.dart';
 
 class MessageBinding extends Bindings {

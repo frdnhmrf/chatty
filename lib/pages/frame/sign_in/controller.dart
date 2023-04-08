@@ -1,6 +1,6 @@
 import 'package:chatty/common/entities/user.dart';
 import 'package:chatty/common/routes/routes.dart';
-import 'package:chatty/frame/sign_in/index.dart';
+import 'package:chatty/pages/frame/sign_in/index.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';

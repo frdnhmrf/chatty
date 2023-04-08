@@ -1,6 +1,6 @@
-import 'package:chatty/frame/sign_in/index.dart';
-import 'package:chatty/message/index.dart';
-import 'package:chatty/frame/welcome/index.dart';
+import 'package:chatty/pages/frame/sign_in/index.dart';
+import 'package:chatty/pages/message/index.dart';
+import 'package:chatty/pages/frame/welcome/index.dart';
 import 'package:flutter/material.dart';
 import 'package:chatty/common/middlewares/middlewares.dart';
 
@@ -36,6 +36,11 @@ class AppPages {
       binding: SignInBinding(),
     ),
 
+    // GetPage(
+    //     name: AppRoutes.Profile,
+    //     page: () => ProfilePage(),
+    //     binding: ProfileBinding()),
+
     /*
    
     // 需要登录
@@ -59,7 +64,6 @@ class AppPages {
     //消息
    
     //我的
-    GetPage(name: AppRoutes.Profile, page: () => ProfilePage(), binding: ProfileBinding()),
     //聊天详情
     GetPage(name: AppRoutes.Chat, page: () => ChatPage(), binding: ChatBinding()),
 
