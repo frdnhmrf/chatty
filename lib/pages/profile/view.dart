@@ -108,7 +108,9 @@ class ProfilePage extends GetView<ProfileController> {
         Get.defaultDialog(
           content: const SizedBox(),
           title: "Are you sure to logout?",
-          onConfirm: () {},
+          onConfirm: () {
+            controller.goLogout();
+          },
           textConfirm: "Confirm",
           onCancel: () {},
           textCancel: "Cancel",
