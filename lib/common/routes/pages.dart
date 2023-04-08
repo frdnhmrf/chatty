@@ -1,6 +1,7 @@
 import 'package:chatty/pages/frame/sign_in/index.dart';
 import 'package:chatty/pages/message/index.dart';
 import 'package:chatty/pages/frame/welcome/index.dart';
+import 'package:chatty/pages/profile/index.dart';
 import 'package:flutter/material.dart';
 import 'package:chatty/common/middlewares/middlewares.dart';
 
@@ -36,10 +37,10 @@ class AppPages {
       binding: SignInBinding(),
     ),
 
-    // GetPage(
-    //     name: AppRoutes.Profile,
-    //     page: () => ProfilePage(),
-    //     binding: ProfileBinding()),
+    GetPage(
+        name: AppRoutes.Profile,
+        page: () => const ProfilePage(),
+        binding: ProfileBinding()),
 
     /*
    
